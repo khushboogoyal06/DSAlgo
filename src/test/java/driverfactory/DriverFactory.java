@@ -4,15 +4,22 @@ package driverfactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.cucumber.messages.types.Duration;
 import utils.ConfigReader;
 
 public class DriverFactory {
 
     private static ThreadLocal<WebDriver> mydriver = new ThreadLocal<>();
 
-    public static WebDriver initDriver() {
+    /**
+     * This is used to initialize the thread local driver on the basis of given driver
+     * @param browser
+     * @return
+     */
+    public  WebDriver initDriver(String browser) {
 
-        String browser = ConfigReader.getProperty("browser");
+        //String browser = ConfigReader.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
             mydriver.set(new ChromeDriver());
@@ -21,13 +28,15 @@ public class DriverFactory {
             mydriver.set(new FirefoxDriver());
         }
 
+       
+        getDriver().manage().deleteAllCookies();
         getDriver().manage().window().maximize();
-        //getDriver().deleteAllCookies();
+       // getDriver().manage().timeouts().implicitlyWait(Dura(30));
 
         return getDriver();
     }
 
-    public static WebDriver getDriver() {
+    public static synchronized WebDriver getDriver() {
         return mydriver.get();
     }
 }
