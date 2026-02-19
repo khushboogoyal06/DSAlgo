@@ -1,6 +1,8 @@
 package stepdefinitions;
 
 import org.junit.Assert;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import driverfactory.DriverFactory;
 import io.cucumber.java.en.Given;
@@ -11,6 +13,7 @@ import pages.RegisterPage;
 public class RegisterSteps {
 	String title;
 	
+	private static final Logger logger = LogManager.getLogger(RegisterSteps.class);
 	private RegisterPage registerPage = new RegisterPage(DriverFactory.getDriver());
 	
 
@@ -20,7 +23,7 @@ public class RegisterSteps {
 		//DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com");
 		
 	   title = registerPage.getRegisterPageTitle();
-	   System.out.println("my login page title is " + title);
+	   logger.info("my login page title is " + title);
 	   Thread.sleep(1000);
 	   
 	   
@@ -57,11 +60,6 @@ public void the_link_should_be_visible(String string) {
     Assert.assertTrue(registerPage.isLoginLinkPresent());
 }
 
-@Then("the {string} input field should be displayed")
-public void the_input_field_should_be_displayed(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
 
 @When("The user clicks the {string} button with all fields empty")
 public void the_user_clicks_the_button_with_all_fields_empty(String string) {
