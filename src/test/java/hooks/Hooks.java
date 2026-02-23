@@ -1,23 +1,19 @@
 package hooks;
 
-import io.cucumber.java.Before;
 import driverfactory.DriverFactory;
 import io.cucumber.java.After;
-import utils.ConfigReader;
+import io.cucumber.java.Before;
 
 public class Hooks {
 
-    @Before
-    public void setUp() {
-        DriverFactory.initDriver();
-        DriverFactory.getDriver().get(
-            ConfigReader.getProperty("url")
-        );
-    }
+	@Before(order = 0)
+	public void setUp() {
+		DriverFactory.initDriver();
+		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/");
+	}
 
-    @After
-    public void tearDown() {
-        DriverFactory.getDriver().quit();
-    }
+	@After(order = 0)
+	public void tearDown() {
+		DriverFactory.quitDriver();
+	}
 }
-
