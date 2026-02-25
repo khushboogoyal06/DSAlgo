@@ -38,3 +38,215 @@
 2026-02-17 21:24:05 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Error messages are displayed when all fields are empty during registration
 2026-02-17 21:24:05 [main] INFO  hooks.Hooks - Closing browser...
 2026-02-17 21:24:05 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 19:05:21 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 19:05:21 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 19:05:23 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-19 19:05:23 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 19:05:23 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 19:05:24 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 19:05:24 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 19:05:26 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-19 19:05:26 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 19:05:26 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 19:05:27 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 19:05:28 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 19:05:31 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-19 19:05:31 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 19:05:31 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 19:05:32 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 19:05:32 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 19:05:34 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 19:05:34 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 19:05:34 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:06:51 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:06:51 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-19 21:06:51 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:06:51 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:06:52 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:06:52 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-19 21:06:52 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:06:52 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:06:53 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:06:54 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 21:06:54 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:06:54 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:08:03 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:08:04 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-19 21:08:04 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:08:04 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:08:05 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:08:05 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-19 21:08:05 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:08:05 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:08:06 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:08:06 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 21:08:06 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:08:06 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:07 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:07 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-19 21:09:07 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:07 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:08 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:08 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-19 21:09:08 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:08 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:09 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:09 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 21:09:09 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:09 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:39 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:39 [main] ERROR hooks.Hooks - Scenario FAILED: Verify title of the page
+2026-02-19 21:09:39 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:39 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:41 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:41 [main] ERROR hooks.Hooks - Scenario FAILED: Verify presence of Register button
+2026-02-19 21:09:41 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:41 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:42 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:42 [main] ERROR hooks.Hooks - Scenario FAILED: Verify presence of Login link/button
+2026-02-19 21:09:42 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:42 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:09:43 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:09:43 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 21:09:43 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:09:43 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:26:00 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:26:01 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 21:26:03 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-19 21:26:03 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:26:03 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:26:04 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:26:04 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 21:26:06 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-19 21:26:06 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:26:06 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:26:07 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:26:07 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 21:26:11 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-19 21:26:11 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:26:11 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-19 21:26:12 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-19 21:26:12 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-19 21:26:14 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-19 21:26:14 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-19 21:26:14 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-20 13:52:40 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-20 13:52:40 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-20 13:52:42 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-20 13:52:42 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-20 13:52:42 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-20 13:52:43 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-20 13:52:44 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-20 13:52:46 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-20 13:52:46 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-20 13:52:46 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-20 13:52:47 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-20 13:52:47 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-20 13:52:50 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-20 13:52:50 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-20 13:52:50 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-20 13:52:51 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-20 13:52:51 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-20 13:52:55 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-20 13:52:55 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-20 13:52:55 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 11:56:58 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 11:56:59 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 11:57:01 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-24 11:57:01 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 11:57:01 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 11:57:02 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 11:57:02 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 11:57:04 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-24 11:57:04 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 11:57:04 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 11:57:05 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 11:57:05 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 11:57:09 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-24 11:57:09 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 11:57:09 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 11:57:10 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 11:57:10 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 11:57:13 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-24 11:57:13 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 11:57:13 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 12:41:43 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 12:41:43 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 12:41:45 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-24 12:41:45 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 12:41:45 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 12:41:47 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 12:41:47 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 12:41:49 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-24 12:41:49 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 12:41:49 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 12:41:50 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 12:41:50 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 12:41:54 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-24 12:41:54 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 12:41:54 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 12:41:55 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 12:41:55 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 12:41:58 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-24 12:41:58 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 12:41:58 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:18:08 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:18:08 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:18:11 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-24 15:18:11 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:18:11 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:18:12 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:18:12 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:18:14 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-24 15:18:14 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:18:14 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:18:15 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:18:15 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:18:19 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-24 15:18:19 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:18:19 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:18:20 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:18:20 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:18:23 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-24 15:18:23 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:18:23 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:31:28 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:31:28 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:31:29 [main] ERROR hooks.Hooks - Scenario FAILED: Verify title of the page
+2026-02-24 15:31:30 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:31:30 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:31:31 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:31:32 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:31:33 [main] ERROR hooks.Hooks - Scenario FAILED: Verify presence of Register button
+2026-02-24 15:31:33 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:31:33 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:31:34 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:31:34 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:31:35 [main] ERROR hooks.Hooks - Scenario FAILED: Verify presence of Login link/button
+2026-02-24 15:31:35 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:31:35 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:31:36 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:31:37 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:31:38 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-24 15:31:38 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:31:38 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:42:53 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:42:53 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:42:55 [main] INFO  hooks.Hooks - Scenario PASSED: Verify title of the page
+2026-02-24 15:42:55 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:42:55 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:42:56 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:42:57 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:42:59 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Register button
+2026-02-24 15:42:59 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:42:59 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:43:00 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:43:00 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:43:03 [main] INFO  hooks.Hooks - Scenario PASSED: Verify presence of Login link/button
+2026-02-24 15:43:03 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:43:03 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-02-24 15:43:05 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com
+2026-02-24 15:43:05 [main] INFO  stepdefinitions.RegisterSteps - my login page title is Numpy Ninja
+2026-02-24 15:43:08 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Error messages are displayed when all fields are empty during registration
+2026-02-24 15:43:08 [main] INFO  hooks.Hooks - Closing browser...
+2026-02-24 15:43:08 [main] INFO  hooks.Hooks - ===== Ending Scenario =====

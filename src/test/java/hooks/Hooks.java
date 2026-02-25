@@ -8,6 +8,8 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import driverfactory.DriverFactory;
@@ -57,6 +59,14 @@ public class Hooks {
         if (scenario.isFailed()) {
             logger.error("Scenario FAILED: " + scenario.getName());
             // take screenshot here
+            
+          String ScreenshotName=  scenario.getName().replaceAll(" ", "");
+       byte[] sourcePath =   ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+       scenario.attach(sourcePath, "image/png", ScreenshotName);
+          
+          
+            
+            
         } else {
             logger.info("Scenario PASSED: " + scenario.getName());
         }
