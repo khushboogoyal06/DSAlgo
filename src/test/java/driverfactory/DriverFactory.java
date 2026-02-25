@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.cucumber.messages.types.Duration;
 import utils.ConfigReader;
 
 public class DriverFactory {
@@ -13,10 +14,14 @@ public class DriverFactory {
     // single driver instance
     public static WebDriver driver;
 
-    // initialize driver
-    public static WebDriver initDriver() {
+    /**
+     * This is used to initialize the thread local driver on the basis of given driver
+     * @param browser
+     * @return
+     */
+    public  WebDriver initDriver(String browser) {
 
-        String browser = ConfigReader.getProperty("browser");
+        //String browser = ConfigReader.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
@@ -36,9 +41,8 @@ public class DriverFactory {
         return driver;
     }
 
-    // get driver
-    public static WebDriver getDriver() {
-        return driver;
+    public static synchronized WebDriver getDriver() {
+        return mydriver.get();
     }
 
     // quit driver
