@@ -117,6 +117,13 @@
 			<version>2.18.0</version>
 			<scope>compile</scope>
 		</dependency>
+		
+		 <!-- ChainTest Core -->
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>chaintest-core</artifactId>
+        <version>1.0.0</version>
+    </dependency>
 
 	</dependencies>
 
