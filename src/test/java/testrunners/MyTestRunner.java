@@ -7,8 +7,11 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 //features ="classpath:src/test/resources/features",
 
-@CucumberOptions(features = "src/test/resources/features/TC02_Register.feature", glue = {"stepdefinitions", "hooks"}, plugin =
-{ "pretty", "html:target/cucumber-reports/cucumber.html",
+@CucumberOptions(features = "src/test/resources/features/TC02_Register.feature"
+, glue = {"stepdefinitions", "hooks"}
+, plugin ={ "pretty", "html:target/cucumber-reports/cucumber.html",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+		// "com.aventstack.chaintest.plugins.ChainTestCucumberListener",
 "json:target/cucumber-reports/cucumber.json" }, monochrome = true) // tags =
 // "@smoke" // optional
 
