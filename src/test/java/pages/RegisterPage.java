@@ -17,8 +17,10 @@ public class RegisterPage {
 	private By getStartedBtn = By.xpath("//button[@class='btn']");
 	private By loginLink = By.xpath("//a[text()='Login ']");
 	private By registerBtn = By.xpath("//input[@value='Register']");
-	private By username = By.xpath("//input[@value='Register']");
-	//WebElement username = driver.findElement(By.id("username"));
+	private By username = By.xpath("//input[@name='username']");
+	private By password = By.xpath("//input[@name='password1']");
+	private By confirmPassword = By.xpath("//input[@name='password2']");
+	//WebElement username = driver.findElement(By.id("username"));username
 	
 	
 	//2. Constructor of the page class

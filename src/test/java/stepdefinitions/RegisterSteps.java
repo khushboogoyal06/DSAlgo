@@ -68,4 +68,34 @@ public class RegisterSteps {
 		registerPage.validateErrormessageforUsername();
 	}
 
+	@When("the user enters {string} in the Username field")
+	public void the_user_enters_in_the_username_field(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("the user enters {string} in the Password field")
+	public void the_user_enters_in_the_password_field(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("the user enters {string} in the Confirm Password field")
+	public void the_user_enters_in_the_confirm_password_field(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("the user clicks on the {string} button")
+	public void the_user_clicks_on_the_button(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("the appropriate message {string} should be displayed")
+	public void the_appropriate_message_should_be_displayed(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
 }

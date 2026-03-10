@@ -5,9 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import io.cucumber.messages.types.Duration;
-import utils.ConfigReader;
-
 public class DriverFactory {
 
     private static ThreadLocal<WebDriver> mydriver = new ThreadLocal<>();
@@ -40,5 +37,3 @@ public class DriverFactory {
         return mydriver.get();
     }
 }
-
-

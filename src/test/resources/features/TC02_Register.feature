@@ -19,13 +19,18 @@ Feature: To verify and validate  User  Register page
     When the user click on "register" button
     When The user clicks the "Register" button with all fields empty
     Then The error "Please fill out this field." shows under the Username box
-    
-    
-    
-   #   | username        | password        | confirmpassword | message                                                |
-   #
-   #   | sdet158         | Bughunters@2023 | Bughunters@2023 | password_mismatch:The two password fields didn’t match |
-   #   | Bughunters@2023 |                 | Bughunters@2023 | Please fill out this field                             |
-   #   | sdet158         |                 | Bughunters@2023 | Please fill out this field                             |
-   #   | sdet158         |                 | Bughunters@2023 | Please fill out this field                             |
-   #   | asxcvb          | greenHorn@2024  | greenHorn@2024  | New Account Created. You are logged in as asdfgh       |
+
+  Scenario Outline: Verify error messages are displayed for different sets of data
+    When the user enters "<username>" in the Username field
+    And the user enters "<password>" in the Password field
+    And the user enters "<confirmPassword>" in the Confirm Password field
+    And the user clicks on the "Register" button
+    Then the appropriate message "<message>" should be displayed
+
+    Examples:
+      | username    | password       | confirmPassword | message                                                 |
+      | sdet224     | huntrix2026    | huntrix2023     | password_mismatch: The two password fields didn’t match |
+      | huntrix2023 |                | huntrix2023     | Please fill out this field                              |
+      | sdet224     | huntrix2023    |                 | Please fill out this field                              |
+      | sdet224     |                | huntrix2023     | Please fill out this field                              |
+      | asxcvb      | greenHorn@2024 | greenHorn@2024  | New Account Created. You are logged in as asdfgh        |
