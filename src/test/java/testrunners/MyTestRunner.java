@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features",
+		features = "src/test/resources/features/LandingPage.feature",
 		glue = {"stepdefinitions", "hooks"},
 		plugin = {
 				"pretty",
@@ -15,11 +15,8 @@ import io.cucumber.junit.CucumberOptions;
 				"json:target/cucumber.json"
 		},
 		monochrome = true
-		//, tags = "@smoke"
 		)
 public class MyTestRunner {
 }
-
-
 
 
