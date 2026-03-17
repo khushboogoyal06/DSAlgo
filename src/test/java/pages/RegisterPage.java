@@ -8,58 +8,74 @@ import org.openqa.selenium.WebElement;
 
 public class RegisterPage {
 	private WebDriver driver;
-	
-	  private static final Logger logger = LogManager.getLogger(RegisterPage.class);
-	
-	//1. By Locator
-	
-	private By register  = By.xpath("//a[contains(text(),'Register')]");
+
+	private static final Logger logger = LogManager.getLogger(RegisterPage.class);
+
+	// 1. By Locator
+
+	private By register = By.xpath("//a[contains(text(),'Register')]");
 	private By getStartedBtn = By.xpath("//button[@class='btn']");
 	private By loginLink = By.xpath("//a[text()='Login ']");
 	private By registerBtn = By.xpath("//input[@value='Register']");
 	private By username = By.xpath("//input[@name='username']");
 	private By password = By.xpath("//input[@name='password1']");
 	private By confirmPassword = By.xpath("//input[@name='password2']");
-	//WebElement username = driver.findElement(By.id("username"));username
-	
-	
-	//2. Constructor of the page class
-	
+	// WebElement username = driver.findElement(By.id("username"));username
+
+	// 2. Constructor of the page class
+
 	public RegisterPage(WebDriver driver) {
-		this.driver =driver;
+		this.driver = driver;
 	}
-	
-  //page action
-	
+
+	// page action
+
 	public String getRegisterPageTitle() {
 		return driver.getTitle().trim();
 	}
-	
+
 	public boolean isRegisterLinkPresent() {
-		return	driver.findElement(register).isDisplayed();
-	
+		return driver.findElement(register).isDisplayed();
+
 	}
+
 	public void clickOnRegisterlnk() {
 		driver.findElement(register).click();
-		
+
 	}
-	
+
 	public boolean isLoginLinkPresent() {
-		return	driver.findElement(loginLink).isDisplayed();
-	
+		return driver.findElement(loginLink).isDisplayed();
+
 	}
-	
+
 	public void clickonGetstartedButton() {
 		driver.findElement(getStartedBtn).click();
 	}
-	
+
 	public void clickonRegisterBtn() {
 		driver.findElement(registerBtn).click();
 	}
-   public void validateErrormessageforUsername() {
-	   String validationMessage = driver.findElement(username).getAttribute("validationMessage");
-	   System.out.println("validation Message is " + validationMessage);
-	   
-   }
-	
+
+	public void validateErrormessageforUsername() {
+		String validationMessage = driver.findElement(username).getAttribute("validationMessage");
+		System.out.println("validation Message is " + validationMessage);
+
+	}
+
+	public void enterUserName(String userName2) {
+		driver.findElement(username).sendKeys(userName2);
+
+	}
+
+	public void enterPassword(String password2) {
+		driver.findElement(password).sendKeys(password2);
+
+	}
+
+	public void enterConfirmPassword(String confirmPassword2) {
+		driver.findElement(confirmPassword).sendKeys(confirmPassword2);
+
+	}
+
 }

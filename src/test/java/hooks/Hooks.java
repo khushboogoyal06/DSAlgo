@@ -34,26 +34,61 @@ public class Hooks {
 
 	}
 
-	@Before(order = 1)
-	public void launchBrowser() {
+//	@Before(order = 1)
+//	public void launchBrowser() throws InterruptedException {
+//		configReader = new ConfigReader();
+//		String browserName = prop.getProperty("browser");
+//		driverfactory = new DriverFactory();
+//		driver = driverfactory.initDriver(browserName);
+//
+//		String url = prop.getProperty("url");
+//		logger.info("Launching browser..." + url);
+//		driver.get(url);
+//		Thread.sleep(2000);
+//
+//	}
+	
+	
+	@Before(order = 1, value = "@register")
+	public void register() throws InterruptedException {
+		// LOGIN
 		configReader = new ConfigReader();
 		String browserName = prop.getProperty("browser");
 		driverfactory = new DriverFactory();
 		driver = driverfactory.initDriver(browserName);
+		
+		logger.info("driver  browser..." + driver);
 
 		String url = prop.getProperty("url");
 		logger.info("Launching browser..." + url);
 		driver.get(url);
+		Thread.sleep(1000);
+		
+		
 
 	}
 
 	@Before(order = 1, value = "@login")
-	public void login() {
+	public void login() throws InterruptedException {
 		// LOGIN
-		QueuePage queuePage = new QueuePage(DriverFactory.getDriver());
+		configReader = new ConfigReader();
+		String browserName = prop.getProperty("browser");
+		driverfactory = new DriverFactory();
+		driver = driverfactory.initDriver(browserName);
+		
+		logger.info("driver  browser..." + driver);
 
+		String url = prop.getProperty("url");
+		logger.info("Launching browser..." + url);
+		driver.get(url);
+		Thread.sleep(1000);
+		QueuePage queuePage = new QueuePage(DriverFactory.getDriver());
+		RegisterPage registerpage = new RegisterPage(DriverFactory.getDriver());
+		registerpage.clickonGetstartedButton();
+		Thread.sleep(1000);
 		queuePage.clickSignIn();
 		queuePage.login(prop.getProperty("username"), prop.getProperty("password"));
+		
 
 	}
 

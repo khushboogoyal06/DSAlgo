@@ -1,5 +1,6 @@
 package pages;
 
+import java.lang.System.Logger;
 import java.time.Duration;
 import java.util.List;
 
@@ -72,10 +73,13 @@ public class QueuePage {
   
     public void clickSignIn() {
         wait.until(ExpectedConditions.elementToBeClickable(signInLink)).click();
+         
+    
     }
 
     public void login(String username, String password) {
-        wait.until(ExpectedConditions.visibilityOf(usernameField)).sendKeys(username);
+        System.out.println(username);
+    	wait.until(ExpectedConditions.visibilityOf(usernameField)).sendKeys(username);
         passwordField.sendKeys(password);
         loginButton.click();
     }

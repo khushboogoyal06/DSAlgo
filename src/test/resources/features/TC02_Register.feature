@@ -1,16 +1,19 @@
-@Register
+@register
 Feature: To verify and validate  User  Register page
 
   Background:
     Given User is on "Home" page
     When the user click on "Get Started" button
 
+  @test
   Scenario: Verify title of the page
     Then I verify the title of the page is "Numpy Ninja"
 
+  @test
   Scenario: Verify presence of Register button
     Then the "Register" button should be visible and enabled
 
+  @test
   Scenario: Verify presence of Login link/button
     When the user click on "register" button
     Then the "Login" link should be visible

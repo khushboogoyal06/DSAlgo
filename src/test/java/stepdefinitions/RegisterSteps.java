@@ -69,21 +69,18 @@ public class RegisterSteps {
 	}
 
 	@When("the user enters {string} in the Username field")
-	public void the_user_enters_in_the_username_field(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	public void the_user_enters_in_the_username_field(String userName) {
+		registerPage.enterUserName(userName);
 	}
 
 	@When("the user enters {string} in the Password field")
-	public void the_user_enters_in_the_password_field(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	public void the_user_enters_in_the_password_field(String password) {
+		registerPage.enterPassword(password);
 	}
 
 	@When("the user enters {string} in the Confirm Password field")
-	public void the_user_enters_in_the_confirm_password_field(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	public void the_user_enters_in_the_confirm_password_field(String confirmPassword) {
+		registerPage.enterConfirmPassword(confirmPassword);
 	}
 
 	@When("the user clicks on the {string} button")

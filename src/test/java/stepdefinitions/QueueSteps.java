@@ -9,21 +9,24 @@ import org.openqa.selenium.support.ui.*;
 import driverfactory.DriverFactory;
 import io.cucumber.java.en.*;
 import pages.QueuePage;
+import pages.RegisterPage;
 
 import java.time.Duration;
 
 public class QueueSteps {
 
     private WebDriver driver;
-    private QueuePage queuePage;
+    //private QueuePage queuePage;
     private WebDriverWait wait;
+    
+    private QueuePage queuePage = new QueuePage(DriverFactory.getDriver());
 
-    // FIXED CONSTRUCTOR
-    public QueueSteps() {
-        driver = DriverFactory.getDriver();
-        queuePage = new QueuePage(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    }
+//    // FIXED CONSTRUCTOR
+//    public QueueSteps() {
+//        driver = DriverFactory.getDriver();
+//        queuePage = new QueuePage(driver);
+//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//    }
 
     @Given("user successfully signed in to DSAlgo portal")
     public void user_successfully_signed_in() {
@@ -33,6 +36,7 @@ public class QueueSteps {
     @Given("User is on the Home page")
     public void user_on_home_page() {
         // Home page already opened via Hooks
+    	
     }
 
     // QUEUE PAGE 
