@@ -1,50 +1,36 @@
 package driverfactory;
-
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import utils.ConfigReader;
-
 public class DriverFactory {
 
-    // single driver instance
-    public static WebDriver driver;
+    private static ThreadLocal<WebDriver> mydriver = new ThreadLocal<>();
 
-    // initialize driver
-    public static WebDriver initDriver() {
+    /**
+     * This is used to initialize the thread local driver on the basis of given driver
+     * @param browser
+     * @return
+     */
+    public  WebDriver initDriver(String browser) {
 
-        String browser = ConfigReader.getProperty("browser");
+        //String browser = ConfigReader.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
+            mydriver.set(new ChromeDriver());
         } 
         else if (browser.equalsIgnoreCase("firefox")) {
-            driver = new FirefoxDriver();
-        } 
-        else {
-            System.out.println("Browser not supported. Launching Chrome by default.");
-            driver = new ChromeDriver();
+            mydriver.set(new FirefoxDriver());
         }
+     
+        getDriver().manage().deleteAllCookies();
+        getDriver().manage().window().maximize();
+        getDriver().manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
 
-        // basic setup
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-
-        return driver;
+        return getDriver();
     }
 
-    // get driver
-    public static WebDriver getDriver() {
-        return driver;
-    }
-
-    // quit driver
-    public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-        }
+    public static synchronized WebDriver getDriver() {
+        return mydriver.get();
     }
 }

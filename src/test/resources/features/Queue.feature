@@ -1,8 +1,7 @@
-
 @login @Queuemodule 
 Feature: Queue Module
 
-Background:  Given user successfully signed in to DSAlgo portal 
+Background: Given user successfully signed in to DSAlgo portal 
  
 
 Scenario: Verify Queue page header
@@ -13,7 +12,7 @@ Scenario: Verify Queue page header
 Scenario Outline: Verify topics present in Queue page
   Given User is in Queue Page
   When User clicks on Queue topic "<topicLinks>"
-  Then User should navigate to "<ExpectedTitle>"
+  Then User should navigate to Queue title "<ExpectedTitle>"
 
 Examples:
   | topicLinks                             | ExpectedTitle                          |
@@ -23,11 +22,10 @@ Examples:
   | Queue Operations                       | Queue Operations                       |
 
 
-
-Scenario Outline: Verify the functionality of Practice page on Queue topic pages
-  Given User is in "<topic>" page
-  When User clicks on practice questions
-  Then User should navigate to practice page
+Scenario Outline:Verify Practice page navigation from Queue topics
+  Given User is in Queue "<topic>" page
+  When User clicks on Queue practice questions
+  Then User should navigate to Queue practice page
 
 Examples:
   | topic                                 |
@@ -37,10 +35,10 @@ Examples:
   | Queue Operations                      |
 
 Scenario Outline: Verify the functionality of Try Here button on Queue topic pages
-  Given User is in "<topic>" page
-  When User clicks on Try here button
-  Then User should navigate to Try Editor page
-  Then Run Button Appears on the Page
+  Given User is in Queue "<topic>" page
+  When User clicks on Queue Try here button
+  Then User should navigate to Queue Try Editor page
+  Then Run Button Appears on the Queue Page
 
 Examples:
   | topic                                  |
@@ -52,9 +50,9 @@ Examples:
 # -------------------- Code Execution --------------------
 
 Scenario Outline: Verify the functionality of valid code execution
-  Given User is in Try editor page of corresponding "<topic>"
-  When User clicks run button after entering valid code
-  Then Expected output should be displayed
+  Given User is in Queue Try editor page of corresponding "<topic>"
+  When User clicks run button after entering Queue valid code
+  Then Expected Queue output should be displayed
   Examples:
   | topic                                  |
   | Implementation of Queue in Python      |
@@ -64,9 +62,9 @@ Scenario Outline: Verify the functionality of valid code execution
 
 
 Scenario Outline: Verify the functionality of Invalid code execution
-  Given User is in Try editor page of corresponding "<topic>"
-  When User clicks run button after entering invalid code
-  Then Alert should appear with error message 
+  Given User is in Queue Try editor page of corresponding "<topic>"
+  When User clicks run button after entering Queue invalid code
+  Then Queue Alert should appear with error message 
   Examples:
   | topic                                  |
   | Implementation of Queue in Python      |
