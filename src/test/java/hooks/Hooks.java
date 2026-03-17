@@ -12,33 +12,33 @@ import java.util.Properties;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import driverfactory.DriverFactory;
 import io.cucumber.java.After;
 import utils.ConfigReader;
 
 public class Hooks {
-
-	private DriverFactory driverfactory;
+	
+	private DriverFactory driverFactory;
 	private WebDriver driver;
 	ConfigReader configReader;
-	Properties prop;
+	Properties prop ;
+	
 
-	private static final Logger logger = LogManager.getLogger(Hooks.class);
-
+    private static final Logger logger = LogManager.getLogger(Hooks.class);
+	
 	@Before(order = 0)
 	public void getProperty() {
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
 
 	}
-
+	
 	@Before(order = 1)
 	public void launchBrowser() {
 		configReader = new ConfigReader();
 		String browserName = prop.getProperty("browser");
-		driverfactory = new DriverFactory();
-		driver = driverfactory.initDriver(browserName);
+		driverFactory = new DriverFactory();
+		driver = driverFactory.initDriver(browserName);
 
 		String url = prop.getProperty("url");
 		logger.info("Launching browser..." + url);
@@ -79,5 +79,6 @@ public class Hooks {
 		logger.info("Closing browser...");
 		logger.info("===== Ending Scenario =====");
 		// driver.quit();
-	}
-}
+
+     }
+   }
