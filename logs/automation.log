@@ -502,3 +502,135 @@
 2026-03-16 23:09:40 [main] ERROR hooks.Hooks - Scenario FAILED: Verify invalid code execution in Graph Try Editor
 2026-03-16 23:09:40 [main] INFO  hooks.Hooks - Closing browser...
 2026-03-16 23:09:40 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:24 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:26 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Graph page header
+2026-03-17 11:04:26 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:26 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:28 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:32 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:04:32 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:32 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:33 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:37 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:04:37 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:37 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:39 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:43 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:04:43 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:43 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:44 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:49 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:04:49 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:49 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:51 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:04:55 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Try Here navigation from Graph topics
+2026-03-17 11:04:55 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:04:55 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:04:57 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:05:01 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Try Here navigation from Graph topics
+2026-03-17 11:05:01 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:05:01 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:05:03 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:05:08 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:05:08 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:05:08 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:05:09 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:05:14 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:05:14 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:05:14 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:05:16 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:05:21 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:05:21 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:05:21 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:05:22 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:05:27 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:05:27 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:05:27 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:23 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:06:26 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Graph page header
+2026-03-17 11:06:26 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:06:26 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:28 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:06:32 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:06:32 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:06:32 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:34 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:06:41 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:06:41 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:06:41 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:42 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:06:47 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:06:47 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:06:47 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:49 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:06:56 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:06:56 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:06:56 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:06:58 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:10 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Try Here navigation from Graph topics
+2026-03-17 11:07:11 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:11 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:07:12 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:17 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Try Here navigation from Graph topics
+2026-03-17 11:07:17 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:17 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:07:19 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:24 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:07:24 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:24 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:07:26 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:31 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:07:31 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:31 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:07:33 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:38 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:07:38 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:38 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:07:40 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:07:45 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:07:45 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:07:45 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:09 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:13 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Graph page header
+2026-03-17 11:08:13 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:13 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:15 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:19 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:08:19 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:19 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:21 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:24 [main] INFO  hooks.Hooks - Scenario PASSED: Verify topics present in Graph module
+2026-03-17 11:08:24 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:24 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:25 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:29 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:08:29 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:29 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:30 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:34 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Practice page navigation from Graph topics
+2026-03-17 11:08:34 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:34 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:35 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:41 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Try Here navigation from Graph topics
+2026-03-17 11:08:41 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:41 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:42 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:47 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Try Here navigation from Graph topics
+2026-03-17 11:08:47 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:47 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:49 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:08:54 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:08:54 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:08:54 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:08:55 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:09:00 [main] INFO  hooks.Hooks - Scenario PASSED: Verify valid code execution in Graph Try Editor
+2026-03-17 11:09:00 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:09:00 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:09:01 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:09:07 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:09:07 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:09:07 [main] INFO  hooks.Hooks - ===== Ending Scenario =====
+2026-03-17 11:09:09 [main] INFO  hooks.Hooks - Launching browser...https://dsportalapp.herokuapp.com/home
+2026-03-17 11:09:13 [main] INFO  hooks.Hooks - Scenario PASSED: Verify invalid code execution in Graph Try Editor
+2026-03-17 11:09:13 [main] INFO  hooks.Hooks - Closing browser...
+2026-03-17 11:09:13 [main] INFO  hooks.Hooks - ===== Ending Scenario =====

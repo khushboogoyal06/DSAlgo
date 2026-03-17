@@ -25,14 +25,16 @@ public class Hooks {
 	
 
     private static final Logger logger = LogManager.getLogger(Hooks.class);
-	
+
+ //load config properties
 	@Before(order = 0)
 	public void getProperty() {
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
-
-	}
+      }
 	
+	
+//launch browser
 	@Before(order = 1)
 	public void launchBrowser() {
 		configReader = new ConfigReader();
@@ -44,10 +46,10 @@ public class Hooks {
 		logger.info("Launching browser..." + url);
 		driver.get(url);
 	}
-
-	@Before(order = 1, value = "@login")
+//Login hook for scenarios tagged with @login
+	@Before(order = 2, value = "@login")
 	public void login() {
-		// LOGIN
+		
 		QueuePage queuePage = new QueuePage(DriverFactory.getDriver());
 
 		queuePage.clickSignIn();
