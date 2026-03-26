@@ -3,7 +3,6 @@ package hooks;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import pages.QueuePage;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,12 +16,13 @@ import io.cucumber.java.After;
 import utils.ConfigReader;
 
 public class Hooks {
+
 	
 	private DriverFactory driverFactory;
 	private WebDriver driver;
 	ConfigReader configReader;
-	Properties prop ;
-	
+	Properties prop;
+
 
     private static final Logger logger = LogManager.getLogger(Hooks.class);
 
@@ -81,6 +81,5 @@ public class Hooks {
 		logger.info("Closing browser...");
 		logger.info("===== Ending Scenario =====");
 		// driver.quit();
-
-     }
-   }
+	}
+}

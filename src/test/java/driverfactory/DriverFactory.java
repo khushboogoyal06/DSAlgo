@@ -1,4 +1,5 @@
 package driverfactory;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,6 +27,8 @@ public class DriverFactory {
         getDriver().manage().deleteAllCookies();
         getDriver().manage().window().maximize();
         getDriver().manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
+
+
 
         return getDriver();
     }

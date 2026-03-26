@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class RegisterPage {
 	private WebDriver driver;
@@ -16,6 +17,10 @@ public class RegisterPage {
 	private By getStartedBtn = By.xpath("//button[@class='btn']");
 	private By loginLink = By.xpath("//a[text()='Login ']");
 	private By registerBtn = By.xpath("//input[@value='Register']");
+	private By username = By.xpath("//input[@name='username']");
+	private By password = By.xpath("//input[@name='password1']");
+	private By confirmPassword = By.xpath("//input[@name='password2']");
+	//WebElement username = driver.findElement(By.id("username"));username
 	
 	
 	//2. Constructor of the page class
@@ -51,6 +56,10 @@ public class RegisterPage {
 	public void clickonRegisterBtn() {
 		driver.findElement(registerBtn).click();
 	}
-
+   public void validateErrormessageforUsername() {
+	   String validationMessage = driver.findElement(username).getAttribute("validationMessage");
+	   System.out.println("validation Message is " + validationMessage);
+	   
+   }
 	
 }
