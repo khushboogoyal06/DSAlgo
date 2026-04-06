@@ -30,11 +30,6 @@ public class QueueSteps {
         
     }
 
-    @Given("User is on the Home page")
-    public void user_on_home_page() {
-        // Home page already opened via Hooks
-    }
-
     // QUEUE PAGE 
 
     @When("User clicks on the Get Started button present in Queue card")
@@ -59,7 +54,7 @@ public class QueueSteps {
         queuePage.clickTopic(topic);
     }
 
-    @Then("User should navigate to {string}")
+    @Then("User should navigate to Queue title {string}")
     public void user_should_navigate_to(String expectedTitle) {
         assertEquals(expectedTitle,
                 queuePage.getTopicHeaderText(expectedTitle));
@@ -67,68 +62,68 @@ public class QueueSteps {
 
     // PRACTICE QUESTIONS 
 
-    @Given("User is in {string} page")
+    @Given("User is in Queue {string} page")
     public void user_is_in_topic_page(String topic) {
         queuePage.openQueuePage();
         queuePage.clickTopic(topic);
     }
 
-    @When("User clicks on practice questions")
+    @When("User clicks on Queue practice questions")
     public void click_practice_questions() {
         queuePage.clickPracticeQuestions();
     }
 
-    @Then("User should navigate to practice page")
+    @Then("User should navigate to Queue practice page")
     public void verify_practice_page() {
-        assertTrue(driver.getCurrentUrl().contains("/practice"));
+        assertTrue(driver.getCurrentUrl().contains("practice"));
     }
 
     // TRY EDITOR 
 
-    @When("User clicks on Try here button")
+    @When("User clicks on Queue Try here button")
     public void click_try_here() {
         queuePage.clickTryHere();
     }
 
-    @Then("User should navigate to Try Editor page")
+    @Then("User should navigate to Queue Try Editor page")
     public void verify_try_editor_page() {
-        assertTrue(driver.getCurrentUrl().contains("/tryEditor"));
+        assertTrue(driver.getCurrentUrl().contains("tryEditor"));
     }
 
-    @Then("Run Button Appears on the Page")
+    @Then("Run Button Appears on the Queue Page")
     public void run_button_visible() {
         assertTrue(queuePage.isRunButtonDisplayed());
     }
 
     // VALID CODE EXECUTION 
 
-    @Given("User is in Try editor page of corresponding {string}")
+    @Given("User is in Queue Try editor page of corresponding {string}")
     public void user_is_in_try_editor_page_of_corresponding(String topicLink) {
         queuePage.openQueuePage();
         queuePage.clickTopic(topicLink);
         queuePage.clickTryHere();
     }
 
-    @When("User clicks run button after entering valid code")
+    @When("User clicks run button after entering Queue valid code")
     public void run_valid_code() {
         queuePage.enterCode("print(\"Hello\")");
         queuePage.clickRun();
     }
 
-    @Then("Expected output should be displayed")
+    @Then("Expected Queue output should be displayed")
     public void verify_output() {
         assertFalse(queuePage.getOutput().isEmpty());
     }
 
     // INVALID CODE EXECUTION 
 
-    @When("User clicks run button after entering invalid code")
+    @When("User clicks run button after entering Queue invalid code")
     public void run_invalid_code() {
         queuePage.enterCode("print(");
         queuePage.clickRun();
     }
 
-    @Then("Alert should appear with error message")
+    @Then("Queue Alert should appear with error message")
     public void verify_alert() {
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
         assertNotNull(alert.getText());

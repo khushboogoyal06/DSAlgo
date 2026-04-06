@@ -3,8 +3,6 @@ package hooks;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import pages.QueuePage;
-import pages.RegisterPage;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,43 +11,45 @@ import java.util.Properties;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import driverfactory.DriverFactory;
 import io.cucumber.java.After;
 import utils.ConfigReader;
 
 public class Hooks {
 
-	private DriverFactory driverfactory;
+	
+	private DriverFactory driverFactory;
 	private WebDriver driver;
 	ConfigReader configReader;
 	Properties prop;
 
-	private static final Logger logger = LogManager.getLogger(Hooks.class);
 
+    private static final Logger logger = LogManager.getLogger(Hooks.class);
+
+ //load config properties
 	@Before(order = 0)
 	public void getProperty() {
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
-
-	}
-
+      }
+	
+	
+//launch browser
 	@Before(order = 1)
 	public void launchBrowser() {
 		configReader = new ConfigReader();
 		String browserName = prop.getProperty("browser");
-		driverfactory = new DriverFactory();
-		driver = driverfactory.initDriver(browserName);
+		driverFactory = new DriverFactory();
+		driver = driverFactory.initDriver(browserName);
 
 		String url = prop.getProperty("url");
 		logger.info("Launching browser..." + url);
 		driver.get(url);
-
 	}
-
-	@Before(order = 1, value = "@login")
+//Login hook for scenarios tagged with @login
+	@Before(order = 2, value = "@login")
 	public void login() {
-		// LOGIN
+		
 		QueuePage queuePage = new QueuePage(DriverFactory.getDriver());
 
 		queuePage.clickSignIn();
